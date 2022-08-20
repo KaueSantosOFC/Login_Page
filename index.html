@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" type="text/css" rel="stylesheet" media="screen">
+    <link rel="icon" type="image/x-icon" href="/icon.png">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <p>Pagina de login</p>
+    </header>
+    <!--Container, o bloco com o formulário e as demais informações de login-->
+    <div id="container">
+            <h1>Login</h1>
+            <form id="FormLogin" method="post">
+                <label for="UserEmail">Seu Email</label><br>
+                    <input type="email" id="Mail" name="UserEmail"><br>
+                        <label for="UserPassword">Sua Senha</label><br>
+                            <input type="password" id="Password" name="UserPassword"><br>
+                        <input type="checkbox" id="Checkbox" name="Check" value="confirm">
+                    <label for="Check">Receber Notificações</label><br><br>
+                <input type="submit" value="Logar">
+            </form>
+            <footer>
+                <p><a>Esqueceu sua senha?</a></p>
+            </footer>
+    </div>
+</body>
+</html>
+        <!--Por enquanto esta concluído, falta aprender JavaScript e Conectar a API (banco de dados) para estar funcional-->
